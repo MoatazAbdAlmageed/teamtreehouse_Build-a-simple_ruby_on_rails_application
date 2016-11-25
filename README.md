@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Build a Simple Ruby on Rails Application — Edit
 
-Things you may want to cover:
 
-* Ruby version
+https://teamtreehouse.com/library/build-a-simple-ruby-on-rails-application/getting-started-with-rails/generate-a-rails-application-2
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+We can begin to code our application! First, we need to use Rails to generate our application. Then we’ll create something called a scaffold of our status updates, which will allow us to talk to our database and display information about the status updates.
