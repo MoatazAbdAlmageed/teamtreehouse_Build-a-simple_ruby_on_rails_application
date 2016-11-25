@@ -9,6 +9,29 @@
   </head>
 
   <body>
+
+  <nav class="navbar navbar-default navbar-main main-header">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar-main-content">
+
+
+        <ul class="nav navbar-nav  navbar-left-dropdowns">
+          <li>
+            <%=	 link_to "Statuses", statuses_path %>
+          </li>
+        </ul>
+
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+  </nav>
+
+  <div class="container">
+
     <%= yield %>
+
+  </div>
   </body>
 </html>
